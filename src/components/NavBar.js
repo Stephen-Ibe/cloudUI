@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed '>
       <div className='container mx-auto px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-          <h6 className='text-2xl font-bold uppercase sm:text-2xl'>
+          <h6 className='text-2xl font-bold uppercase sm:text-2xl ml-4'>
             leverage.
           </h6>
         </div>
@@ -34,7 +34,7 @@ const NavBar = () => {
           </button>
           <button className='px-6 py-2'>Sign Up</button>
         </div>
-        <div className='md:hidden' onClick={toggleNav}>
+        <div className='md:hidden mr-4' onClick={toggleNav}>
           {nav ? <XIcon className='w-5' /> : <MenuIcon className='w-5' />}
         </div>
       </div>

@@ -1,11 +1,11 @@
 import { ArrowSmRightIcon, PhoneIcon } from '@heroicons/react/outline';
-import { SupportIcon } from '@heroicons/react/solid';
+import { ChipIcon, SupportIcon } from '@heroicons/react/solid';
 import React from 'react';
 import SupportImg from '../assets/images/support.jpg';
 
 const Support = () => {
   return (
-    <div className='w-full h-screen mt-24'>
+    <div className='w-full mt-24'>
       <div className='w-full h-[700px bg-gray-900/90 absolute'>
         <img
           src={SupportImg}
@@ -29,9 +29,9 @@ const Support = () => {
           </p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-3 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
-          <div className='bg-white rounded-md shadow-lg'>
+          <div className='bg-white rounded-md shadow-lg md:mx-20 md:mb-6'>
             <div className='p-8'>
-              <PhoneIcon className='w-16 p-4 bg-indigo-500 text-white rounded-lg mt-[-4rem]' />
+              <PhoneIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
               <h3 className='font-bold text-2xl my-6'>Sales</h3>
               <p className='text-gray-600 text-lg text-justify'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -45,9 +45,9 @@ const Support = () => {
               </p>
             </div>
           </div>
-          <div className='bg-white rounded-md shadow-lg'>
+          <div className='bg-white rounded-md shadow-lg md:mx-20 md:mb-6'>
             <div className='p-8'>
-              <SupportIcon className='w-16 p-4 bg-indigo-500 text-white rounded-lg mt-[-4rem]' />
+              <SupportIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
               <h3 className='font-bold text-2xl my-6'>Technical Support</h3>
               <p className='text-gray-600 text-lg text-justify'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -61,10 +61,10 @@ const Support = () => {
               </p>
             </div>
           </div>
-          <div className='bg-white rounded-md shadow-lg'>
+          <div className='bg-white rounded-md shadow-lg md:mx-20'>
             <div className='p-8'>
-              <PhoneIcon className='w-16 p-4 bg-indigo-500 text-white rounded-lg mt-[-4rem]' />
-              <h3 className='font-bold text-2xl my-6'>Sales</h3>
+              <ChipIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+              <h3 className='font-bold text-2xl my-6'>Optimized Processing</h3>
               <p className='text-gray-600 text-lg text-justify'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
                 pariatur nulla assumenda nemo consequatur veritatis soluta sit
