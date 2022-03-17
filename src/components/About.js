@@ -13,18 +13,18 @@ const About = () => {
             sapiente, quibusdam mollitia illum corporis vel?
           </p>
         </div>
-        <div className='grid md:grid-cols-3 gap-1 px-2 text-center'>
-          <div>
-            <p>100%</p>
-            <p>Completion</p>
+        <div className='grid md:grid-cols-3 gap-4 px-2 text-center'>
+          <div className='border py-8 rounded-md shadow-md'>
+            <p className='text-6xl font-bold text-indigo-500'>100%</p>
+            <p className='text-gray-400 mt-2'>Completion</p>
           </div>
-          <div>
-            <p>24/7</p>
-            <p>Delivery</p>
+          <div className='border py-8 rounded-md shadow-md'>
+            <p className='text-6xl font-bold text-indigo-500'>24/7</p>
+            <p className='text-gray-400 mt-2'>Delivery</p>
           </div>
-          <div>
-            <p>100k%</p>
-            <p>Transaction</p>
+          <div className='border py-8 rounded-md shadow-md'>
+            <p className='text-6xl font-bold text-indigo-500'>100k</p>
+            <p className='text-gray-400 mt-2'>Transaction</p>
           </div>
         </div>
       </div>
