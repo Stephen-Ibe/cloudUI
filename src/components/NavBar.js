@@ -7,7 +7,7 @@ const NavBar = () => {
   const toggleNav = () => setNav(!nav);
 
   return (
-    <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
+    <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed '>
       <div className='container mx-auto px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
           <h6 className='text-2xl font-bold uppercase sm:text-2xl'>
@@ -29,7 +29,7 @@ const NavBar = () => {
           </li>
         </ul>
         <div className='hidden md:flex pr-4'>
-          <button className='border-none bg-transparent text-black mr-8'>
+          <button className='bg-transparent text-indigo-600 mr-4 px-6 py-2 hover:bg-indigo-600 hover:text-white'>
             Sign In
           </button>
           <button className='px-6 py-2'>Sign Up</button>
